@@ -1,6 +1,6 @@
-FROM hashicorp/terraform:0.11.10
+FROM hashicorp/terraform:0.11.13
 
-ENV DOCKER_VERSION=18.06.1-ce
+ENV DOCKER_VERSION=18.09.5
 
 # Add a static version of Docker CLI to the image
 RUN wget -O /tmp/docker.tgz https://download.docker.com/linux/static/stable/x86_64/docker-${DOCKER_VERSION}.tgz && \
