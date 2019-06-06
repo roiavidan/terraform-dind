@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:0.11.13
+FROM hashicorp/terraform:0.11.14
 
 ENV DOCKER_VERSION=18.09.5
 
