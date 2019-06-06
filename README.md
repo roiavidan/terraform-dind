@@ -1,6 +1,6 @@
 # Terraform w/ Docker-in-Docker
 
-This repository contains a `Dockerfile` for provisioning a *Docker* image for Terraform light (v0.11.14) **WITH** a staticly-linked `docker` executable included.
+This repository contains a `Dockerfile` for provisioning a *Docker* image for Terraform light (v0.12.1) **WITH** a staticly-linked `docker` executable included.
 
 This allows running *Docker* commands (i.e. using auxiliary images) with Terraform's `local-exec` provisioner as part of deployment.
 
