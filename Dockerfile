@@ -10,7 +10,6 @@ VOLUME [ "/root/.ssh" ]
 ENTRYPOINT [ "/usr/local/bin/terraform" ]
 
 # Add local files
-COPY entrypoint.sh /usr/local/bin/
 COPY utils/* /usr/local/bin/
 COPY etc/* /etc/
 
