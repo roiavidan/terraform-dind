@@ -3,5 +3,4 @@
 docker run --rm -t --init \
   -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY -e AWS_SESSION_TOKEN -e AWS_DEFAULT_REGION \
   -v "$(pwd):$(pwd)" -w "$(pwd)" \
-  -v "/var/run/docker.sock:/var/run/docker.sock" \
-  roiavidan/aws-cli:1.16.262 "$@"
+  roiavidan/aws-cli:1.16.266 "$@"
